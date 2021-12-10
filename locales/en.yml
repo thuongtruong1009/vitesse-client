@@ -11,4 +11,15 @@ intro:
   hi: Hi, {name}!
   aka: Also known as
   whats-your-name: What's your name?
+script:
+  name: Name
+  status: status
+tag:
+  home: Home
+  tft: Tft
+  clash: Clash
+layout:
+  client-home: client-home
+  client-tft: client-tft
+  client-clash: client-clash
 not-found: Not found
