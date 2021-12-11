@@ -22,4 +22,8 @@ layout:
   client-home: client-home
   client-tft: client-tft
   client-clash: client-clash
+  social: Social
+  general: General
+  online: online
+  play: play
 not-found: Not found

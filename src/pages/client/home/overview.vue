@@ -7,7 +7,7 @@ useHead({
 </script>
 
 <template>
-  <div class="flex min-w-320 border-1 border-gray-600 text-orange-100 bg-black">
+  <div class="flex min-w-320 border-1 border-gray-600 text-orange-100 bg-black max-h-min">
     <div class="left flex justify-center items-center w-2/6">
       <div class="logo-play flex items-center px-14">
         <img src="/public/assets/images/play-button/play-button-shape.png" class="w-9.4 h-10.5 cursor-pointer">
