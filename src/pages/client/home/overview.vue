@@ -23,7 +23,7 @@ useHead({
     </div>
     <div class="right flex justify-evenly items-center w-4/6">
       <div class="accessibility flex justify-end items-center cursor-pointer w-6/12">
-        <ul class="flex gap-10">
+        <ul class="flex">
           <li><img src="/public/assets/images/header-icons/profile.png"></li>
           <li><img src="/public/assets/images/header-icons/collection.png"></li>
           <li><img src="/public/assets/images/header-icons/booty.png"></li>
@@ -75,6 +75,9 @@ useHead({
   align-self: center;
   padding-left: 75px;
   cursor: pointer;
+}
+.accessibility>ul>li{
+  padding: 0 20px;
 }
 </style>
 
