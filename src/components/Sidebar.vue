@@ -9,20 +9,20 @@ const { t } = useI18n()
         {{ t('layout.social') }}
       </h3>
       <div class="extension flex justify-around w-3/6 cursor-pointer py-2">
-        <img src="/public/assets/images/aside-icons/add-friend.png">
-        <img src="/public/assets/images/aside-icons/add-folder.png">
-        <img src="/public/assets/images/aside-icons/options.png">
-        <img src="/public/assets/images/aside-icons/search.png">
+        <img src="/assets/images/aside-icons/add-friend.png">
+        <img src="/assets/images/aside-icons/add-folder.png">
+        <img src="/assets/images/aside-icons/options.png">
+        <img src="/assets/images/aside-icons/search.png">
       </div>
     </div>
     <div class="group-list grid mt-6">
       <ul class="flex justify-start items-center py-2">
-        <li><img src="/public/assets/images/aside-icons/main-group-flag.png"></li>
+        <li><img src="/assets/images/aside-icons/main-group-flag.png"></li>
         <li>XXXX</li>
         <li>Group main</li>
       </ul>
       <ul v-for="(i, index) in 3" :key="index" class="flex justify-start items-center py-2 cursor-pointer">
-        <li><img src="/public/assets/images/aside-icons/group-flag.png"></li>
+        <li><img src="/assets/images/aside-icons/group-flag.png"></li>
         <li>XXXX</li>
         <li>Group {{ i }}</li>
       </ul>
@@ -34,7 +34,7 @@ const { t } = useI18n()
     </div>
     <div class="chat-list grid">
       <div v-for="index in 14" :key="index" class="flex pl-2 py-2 cursor-pointer">
-        <img class="border-2 border-orange-300 rounded-full w-13 h-13 mr-4" :src="`/public/assets/images/avatar/${index}.jpg`">
+        <img class="border-2 border-orange-300 rounded-full w-13 h-13 mr-4" :src="`/assets/images/avatar/${index}.jpg`">
         <span class="status-icon w-3.2 h-3.2 top-8/12 right-7 rounded-full relative bg-green-600 border-3 border-solid border-green-400" />
         <div class="grid">
           <h5>Name {{ index }}</h5>
@@ -46,19 +46,19 @@ const { t } = useI18n()
     </div>
     <ul class="tool flex justify-around min-w-72 h-1/15 fixed bottom-0 bg-black">
       <li>
-        <img src="/public/assets/images/aside-icons/chat.png">
+        <img src="/assets/images/aside-icons/chat.png">
       </li>
       <li>
-        <img src="/public/assets/images/aside-icons/missions.png">
+        <img src="/assets/images/aside-icons/missions.png">
       </li>
       <li>
-        <img src="/public/assets/images/aside-icons/voice.png">
+        <img src="/assets/images/aside-icons/voice.png">
       </li>
       <li>
         v1.1
       </li>
       <li>
-        <img src="/public/assets/images/aside-icons/bug.png">
+        <img src="/assets/images/aside-icons/bug.png">
       </li>
     </ul>
   </div>
