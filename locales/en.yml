@@ -16,6 +16,7 @@ script:
   status: status
 tag:
   home: Home
+  profile: Profile
   tft: Tft
   clash: Clash
 layout:

@@ -1,8 +1,8 @@
 <template>
-  <main class="text-center text-gray-700 dark:text-gray-200 h-screen overflow-hidden">
-    <router-view />
-    <div class="flex justify-end min-w-320 h-6/6">
-      <div class="flex justify-center items-center w-10/12">
+  <main class="text-center text-gray-700 dark:text-gray-200 min-w-screen-lg h-screen overflow-hidden">
+    <router-view class="h-3/24" />
+    <div class="flex justify-between min-w-screen h-21/24">
+      <div class="flex items-center w-10/12">
         [Client Home Overview layout]
       </div>
       <Sidebar class="w-2/12" />

@@ -7,15 +7,16 @@ useHead({
 </script>
 
 <template>
-  <div class="flex min-w-320 border-1 border-gray-600 text-orange-100 bg-black max-h-min">
+  <div class="flex min-w-screen border-1 border-gray-600 text-orange-100 bg-black max-h-min">
     <div class="left flex justify-center items-center w-2/6">
-      <div class="logo-play flex items-center px-14">
+      <div class="logo-play flex items-center px-14 w-1/2">
         <img src="/assets/images/play-button/play-button-shape.png" class="w-9.4 h-10.5 cursor-pointer">
         <img src="/assets/images/play-button/play-button-click-area.png" class="w-30 h-8.5 cursor-pointer">
       </div>
-      <div class="flex justify-between items-center">
+      <div class="flex justify-between items-center w-1/2">
         <ul class="navigation flex cursor-pointer font-semibold uppercase">
           <li>{{ t('tag.home') }}</li>
+          <li>{{ t('tag.profile') }}</li>
           <li>{{ t('tag.tft') }}</li>
           <li>{{ t('tag.clash') }}</li>
         </ul>
@@ -43,8 +44,8 @@ useHead({
       </div>
       <div class="profile flex items-center w-3/12">
         <div class="avatar-rank flex justify-start items-center cursor-pointer pr-3">
-          <img src="/assets/images/aside-icons/avatar-wrapper.png" class="z-1">
-          <h6 class="absolute flex pl-6 pt-14 font-semibold text-opacity-5 z-2">
+          <img src="/assets/images/aside-icons/avatar-wrapper.png" class="w-17 h-18 z-1">
+          <h6 class="absolute flex pl-5 pt-13 font-semibold text-opacity-5 z-2">
             287
           </h6>
           <img src="/assets/images/avatar/1.jpg" class="absolute rounded-full w-16 h-16 z-0">
@@ -73,7 +74,7 @@ useHead({
   content: "Play";
   position: absolute;
   align-self: center;
-  padding-left: 75px;
+  padding-left: 4.5rem;
   cursor: pointer;
 }
 .accessibility>ul>li{
